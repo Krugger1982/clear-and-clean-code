@@ -1,12 +1,12 @@
 # 1
 # Задача о зарплатах (курс 24 задачи)
 # Было:
-def SynchronizingTables (N, ids, salary):
+def SynchronizingTables(N, ids, salary):
     ...
 
 # Стало:
 from typing import List
-def SynchronizingTables (N: int, ids: List[int], salary: List[int]) -> List[int]:
+def SynchronizingTables(N: int, ids: List[int], salary: List[int]) -> List[int]:
     ...
 
 
@@ -36,11 +36,11 @@ def TheRabbitsFoot(s: str, encode: bool) -> str:
 # 4
 # Задача "Райнехарт и мистер Андерсон" (Разность длинных чисел) (курс 24 задачи)
 # Было:
-def BigMinus(s1,s2):
+def BigMinus(s1, s2):
     ...
 
 # Стало:
-def BigMinus(s1: str, s2: sr) -> str:
+def BigMinus(s1: str, s2: str) -> str:
     ...
 
 # 5
@@ -48,6 +48,7 @@ def BigMinus(s1: str, s2: sr) -> str:
 # Было:
 def MassVote(N, Votes):
     ...
+
 # Стало:
 from typing import List
 def MassVote(N: int, Votes: List[int]) -> str:
@@ -56,22 +57,24 @@ def MassVote(N: int, Votes: List[int]) -> str:
 # 6
 # Задача "Освобождение квадратов" (курс 24 задачи)
 # Было:
-def ConquestCampaign (N, M, L, batalion):
+def ConquestCampaign(N, M, L, batalion):
     ...
+
 # Стало:
 from typing import List
-def ConquestCampaign (N: int, M: int, L: int, batalion: List[int]) -> int
-...:
+def ConquestCampaign(N: int, M: int, L: int, batalion: List[int]) -> int:
+    ...
 
 
 # 7
 # Задача "Поиск слова в тексте" (курс 24 задачи)
 # Было:
-def WordSearch (Len, s, subs):
+def WordSearch(Len, s, subs):
     ...
+
 # Стало:
 from typing import List
-def WordSearch (Len: int, s: str, subs:str) -> List[int]:
+def WordSearch(Len: int, s: str, subs:str) -> List[int]:
     ...
 
 
@@ -80,6 +83,7 @@ def WordSearch (Len: int, s: str, subs:str) -> List[int]:
 # Было:
 def PrintingCosts(Line):
     ...
+
 # Стало:
 def PrintingCosts(Line: str) -> int:
     ...
@@ -90,6 +94,7 @@ def PrintingCosts(Line: str) -> int:
 # Было:
 def SumOfThe(N, data):
     ...
+
 # Стало:
 from typing import List
 def SumOfThe(N: int, data: List[int]) -> int:
@@ -100,6 +105,7 @@ def SumOfThe(N: int, data: List[int]) -> int:
 # Было:
 def Unmanned(L, N, track):
     ...
+
 # Стало:
 from typing import List
 
@@ -109,10 +115,11 @@ def Unmanned(L: int, N:int, track:List[List[int]]) -> int:
 # 11
 # Задача "Шопоголики" (курс 24 задачи)
 # Было:
-def MaximumDiscount( N, price):
+def MaximumDiscount(N, price):
     ...
+
 # Стало:
-def MaximumDiscount( N: int, price: List[int]) -> int:
+def MaximumDiscount(N: int, price: List[int]) -> int:
     ...
 
 # 12
@@ -120,6 +127,7 @@ def MaximumDiscount( N: int, price: List[int]) -> int:
 # Было:
 def BiggerGreater(input):
     ...
+    
 # Стало:
 def BiggerGreater(input: str) -> str:
     ...
